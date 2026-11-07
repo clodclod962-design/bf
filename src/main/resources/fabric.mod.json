@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "mymod",
+  "version": "${version}",
+  "name": "MyMod",
+  "description": "Utility client + custom items",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "my.mod.MyMod"
+    ],
+    "main": [
+      "my.mod.item.MyModCommon"
+    ]
+  },
+  "mixins": [
+    "my-mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "key.mymod.gui": "Open GUI",
+  "category.mymod": "MyMod",
+  "item.mymod.inferno_sword": "Inferno Blade",
+  "item.mymod.inferno_helmet": "Inferno Helmet",
+  "item.mymod.inferno_chestplate": "Inferno Chestplate",
+  "item.mymod.inferno_leggings": "Inferno Leggings",
+  "item.mymod.inferno_boots": "Inferno Boots"
+}
